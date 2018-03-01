@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE26063D20333AE800E6CBD7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EE26063B20333AE800E6CBD7 /* logo.png */; };
+		EE26063E20333AE800E6CBD7 /* demo_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = EE26063C20333AE800E6CBD7 /* demo_pic.png */; };
+		EE363EC62040A8E8003238AE /* photos.png in Resources */ = {isa = PBXBuildFile; fileRef = EE363EC52040A8E8003238AE /* photos.png */; };
+		EE3736BC203DAC2200A47E96 /* wallet.png in Resources */ = {isa = PBXBuildFile; fileRef = EE3736BA203DAC2200A47E96 /* wallet.png */; };
+		EE3736BD203DAC2200A47E96 /* wallet_scene1.png in Resources */ = {isa = PBXBuildFile; fileRef = EE3736BB203DAC2200A47E96 /* wallet_scene1.png */; };
+		EE3736BF203DD50F00A47E96 /* wallet2.png in Resources */ = {isa = PBXBuildFile; fileRef = EE3736BE203DD50F00A47E96 /* wallet2.png */; };
+		EE3736C1203E991400A47E96 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3736C0203E991400A47E96 /* libc++.tbd */; };
+		EE3736C3203E992400A47E96 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3736C2203E992300A47E96 /* AVFoundation.framework */; };
+		EE3736C5203E992A00A47E96 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3736C4203E992A00A47E96 /* QuartzCore.framework */; };
+		EE3736C7203E993900A47E96 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3736C6203E993900A47E96 /* CoreVideo.framework */; };
+		EE3736C9203E994100A47E96 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3736C8203E994000A47E96 /* CoreAudio.framework */; };
+		EE3736CB203E994800A47E96 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3736CA203E994800A47E96 /* CoreMedia.framework */; };
+		EE3736CD203E995300A47E96 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3736CC203E995300A47E96 /* CoreImage.framework */; };
+		EE3736CF203E9AB700A47E96 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3736CE203E9AB600A47E96 /* AssetsLibrary.framework */; };
+		EE3736D2203EA44200A47E96 /* wallet_scene3.png in Resources */ = {isa = PBXBuildFile; fileRef = EE3736D0203EA44100A47E96 /* wallet_scene3.png */; };
+		EE3736D3203EA44200A47E96 /* wallet_scene2.png in Resources */ = {isa = PBXBuildFile; fileRef = EE3736D1203EA44100A47E96 /* wallet_scene2.png */; };
+		EE3736D5203F141600A47E96 /* peakdesign.png in Resources */ = {isa = PBXBuildFile; fileRef = EE3736D4203F141600A47E96 /* peakdesign.png */; };
+		EE3736D8203F236800A47E96 /* CVImageUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE3736D7203F236800A47E96 /* CVImageUtil.mm */; };
+		EE57FBB42046C36D00BA9A7B /* MeanShiftVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE57FBB22046C36D00BA9A7B /* MeanShiftVC.mm */; };
+		EE57FBB52046C36D00BA9A7B /* MeanShiftVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE57FBB32046C36D00BA9A7B /* MeanShiftVC.xib */; };
+		EE682C3C2031E47500D16FDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE682C3B2031E47500D16FDF /* AppDelegate.m */; };
+		EE682C3F2031E47500D16FDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE682C3E2031E47500D16FDF /* ViewController.m */; };
+		EE682C422031E47500D16FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE682C402031E47500D16FDF /* Main.storyboard */; };
+		EE682C472031E47500D16FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE682C462031E47500D16FDF /* Assets.xcassets */; };
+		EE682C4A2031E47500D16FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE682C482031E47500D16FDF /* LaunchScreen.storyboard */; };
+		EE682C4D2031E47500D16FDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE682C4C2031E47500D16FDF /* main.m */; };
+		EE682C572031E47500D16FDF /* OpenCV_featureMatching_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE682C562031E47500D16FDF /* OpenCV_featureMatching_demoTests.m */; };
+		EE682C622031E47500D16FDF /* OpenCV_featureMatching_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE682C612031E47500D16FDF /* OpenCV_featureMatching_demoUITests.m */; };
+		EE682C722031EB3400D16FDF /* MenuItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE682C702031EB3400D16FDF /* MenuItemCell.m */; };
+		EE682C732031EB3400D16FDF /* MenuItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE682C712031EB3400D16FDF /* MenuItemCell.xib */; };
+		EE682C772031EE0000D16FDF /* ORBDemoVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE682C752031EE0000D16FDF /* ORBDemoVC.mm */; };
+		EE682C782031EE0000D16FDF /* ORBDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE682C762031EE0000D16FDF /* ORBDemoVC.xib */; };
+		EE682C7C2031EE2100D16FDF /* ORBCameraVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE682C7A2031EE2100D16FDF /* ORBCameraVC.mm */; };
+		EE682C7D2031EE2100D16FDF /* ORBCameraVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE682C7B2031EE2100D16FDF /* ORBCameraVC.xib */; };
+		EE682C812031F2DF00D16FDF /* CVImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE682C7F2031F2DF00D16FDF /* CVImageCell.m */; };
+		EE682C822031F2DF00D16FDF /* CVImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE682C802031F2DF00D16FDF /* CVImageCell.xib */; };
+		EE9337D6204597CC00408FB3 /* HistDemoVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE9337D4204597CC00408FB3 /* HistDemoVC.mm */; };
+		EE9337D7204597CC00408FB3 /* HistDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE9337D5204597CC00408FB3 /* HistDemoVC.xib */; };
+		EE98D11820482C3900F6F9DF /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE98D11720482C3900F6F9DF /* opencv2.framework */; };
+		EEA47ADA2041418200A4B8E3 /* book1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEA47AD92041418200A4B8E3 /* book1.jpg */; };
+		EEA47ADC2041425100A4B8E3 /* book_scene1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEA47ADB2041425100A4B8E3 /* book_scene1.jpg */; };
+		EEDB0748203FE6F400234CC0 /* red_ball.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEDB0747203FE6F400234CC0 /* red_ball.jpeg */; };
+		EEDB074B203FE74700234CC0 /* CVStepCollectionVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEDB074A203FE74700234CC0 /* CVStepCollectionVC.mm */; };
+		EEDB074F2040978B00234CC0 /* HaarCascadesVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEDB074D2040978B00234CC0 /* HaarCascadesVC.mm */; };
+		EEDB07502040978B00234CC0 /* HaarCascadesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEDB074E2040978B00234CC0 /* HaarCascadesVC.xib */; };
+		EEDB075C2040989800234CC0 /* haarcascade_fullbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = EEDB07532040989800234CC0 /* haarcascade_fullbody.xml */; };
+		EEDB075D2040989800234CC0 /* haarcascade_lowerbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = EEDB07542040989800234CC0 /* haarcascade_lowerbody.xml */; };
+		EEDB075E2040989800234CC0 /* haarcascade_upperbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = EEDB07552040989800234CC0 /* haarcascade_upperbody.xml */; };
+		EEDB075F2040989800234CC0 /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = EEDB07572040989800234CC0 /* haarcascade_frontalface_alt.xml */; };
+		EEDB07602040989800234CC0 /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = EEDB07582040989800234CC0 /* haarcascade_frontalface_alt2.xml */; };
+		EEDB07612040989800234CC0 /* haarcascade_frontalface_alt_tree.xml in Resources */ = {isa = PBXBuildFile; fileRef = EEDB07592040989800234CC0 /* haarcascade_frontalface_alt_tree.xml */; };
+		EEDB07622040989800234CC0 /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = EEDB075A2040989800234CC0 /* haarcascade_frontalface_default.xml */; };
+		EEDB07632040989800234CC0 /* haarcascade_profileface.xml in Resources */ = {isa = PBXBuildFile; fileRef = EEDB075B2040989800234CC0 /* haarcascade_profileface.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE682C532031E47500D16FDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE682C2F2031E47500D16FDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE682C362031E47500D16FDF;
+			remoteInfo = OpenCV_featureMatching_demo;
+		};
+		EE682C5E2031E47500D16FDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE682C2F2031E47500D16FDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE682C362031E47500D16FDF;
+			remoteInfo = OpenCV_featureMatching_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE26063B20333AE800E6CBD7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		EE26063C20333AE800E6CBD7 /* demo_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_pic.png; sourceTree = "<group>"; };
+		EE363EC52040A8E8003238AE /* photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos.png; sourceTree = "<group>"; };
+		EE3736BA203DAC2200A47E96 /* wallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet.png; sourceTree = "<group>"; };
+		EE3736BB203DAC2200A47E96 /* wallet_scene1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_scene1.png; sourceTree = "<group>"; };
+		EE3736BE203DD50F00A47E96 /* wallet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet2.png; sourceTree = "<group>"; };
+		EE3736C0203E991400A47E96 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		EE3736C2203E992300A47E96 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EE3736C4203E992A00A47E96 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EE3736C6203E993900A47E96 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EE3736C8203E994000A47E96 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		EE3736CA203E994800A47E96 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EE3736CC203E995300A47E96 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		EE3736CE203E9AB600A47E96 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		EE3736D0203EA44100A47E96 /* wallet_scene3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_scene3.png; sourceTree = "<group>"; };
+		EE3736D1203EA44100A47E96 /* wallet_scene2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_scene2.png; sourceTree = "<group>"; };
+		EE3736D4203F141600A47E96 /* peakdesign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peakdesign.png; sourceTree = "<group>"; };
+		EE3736D6203F236800A47E96 /* CVImageUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVImageUtil.h; sourceTree = "<group>"; };
+		EE3736D7203F236800A47E96 /* CVImageUtil.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVImageUtil.mm; sourceTree = "<group>"; };
+		EE57FBB12046C36D00BA9A7B /* MeanShiftVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeanShiftVC.h; sourceTree = "<group>"; };
+		EE57FBB22046C36D00BA9A7B /* MeanShiftVC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MeanShiftVC.mm; sourceTree = "<group>"; };
+		EE57FBB32046C36D00BA9A7B /* MeanShiftVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeanShiftVC.xib; sourceTree = "<group>"; };
+		EE682C372031E47500D16FDF /* OpenCV_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE682C3A2031E47500D16FDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE682C3B2031E47500D16FDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE682C3D2031E47500D16FDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE682C3E2031E47500D16FDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE682C412031E47500D16FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE682C462031E47500D16FDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE682C492031E47500D16FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE682C4B2031E47500D16FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE682C4C2031E47500D16FDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE682C522031E47500D16FDF /* OpenCV_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE682C562031E47500D16FDF /* OpenCV_featureMatching_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_featureMatching_demoTests.m; sourceTree = "<group>"; };
+		EE682C582031E47500D16FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE682C5D2031E47500D16FDF /* OpenCV_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE682C612031E47500D16FDF /* OpenCV_featureMatching_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_featureMatching_demoUITests.m; sourceTree = "<group>"; };
+		EE682C632031E47500D16FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE682C6F2031EB3400D16FDF /* MenuItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuItemCell.h; sourceTree = "<group>"; };
+		EE682C702031EB3400D16FDF /* MenuItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuItemCell.m; sourceTree = "<group>"; };
+		EE682C712031EB3400D16FDF /* MenuItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuItemCell.xib; sourceTree = "<group>"; };
+		EE682C742031EE0000D16FDF /* ORBDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORBDemoVC.h; sourceTree = "<group>"; };
+		EE682C752031EE0000D16FDF /* ORBDemoVC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ORBDemoVC.mm; sourceTree = "<group>"; };
+		EE682C762031EE0000D16FDF /* ORBDemoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ORBDemoVC.xib; sourceTree = "<group>"; };
+		EE682C792031EE2100D16FDF /* ORBCameraVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORBCameraVC.h; sourceTree = "<group>"; };
+		EE682C7A2031EE2100D16FDF /* ORBCameraVC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ORBCameraVC.mm; sourceTree = "<group>"; };
+		EE682C7B2031EE2100D16FDF /* ORBCameraVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ORBCameraVC.xib; sourceTree = "<group>"; };
+		EE682C7E2031F2DF00D16FDF /* CVImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVImageCell.h; sourceTree = "<group>"; };
+		EE682C7F2031F2DF00D16FDF /* CVImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVImageCell.m; sourceTree = "<group>"; };
+		EE682C802031F2DF00D16FDF /* CVImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CVImageCell.xib; sourceTree = "<group>"; };
+		EE9337D3204597CC00408FB3 /* HistDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistDemoVC.h; sourceTree = "<group>"; };
+		EE9337D4204597CC00408FB3 /* HistDemoVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HistDemoVC.mm; sourceTree = "<group>"; };
+		EE9337D5204597CC00408FB3 /* HistDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistDemoVC.xib; sourceTree = "<group>"; };
+		EE98D11720482C3900F6F9DF /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		EEA47AD92041418200A4B8E3 /* book1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book1.jpg; sourceTree = "<group>"; };
+		EEA47ADB2041425100A4B8E3 /* book_scene1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book_scene1.jpg; sourceTree = "<group>"; };
+		EEDB0747203FE6F400234CC0 /* red_ball.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red_ball.jpeg; sourceTree = "<group>"; };
+		EEDB0749203FE74700234CC0 /* CVStepCollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVStepCollectionVC.h; sourceTree = "<group>"; };
+		EEDB074A203FE74700234CC0 /* CVStepCollectionVC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVStepCollectionVC.mm; sourceTree = "<group>"; };
+		EEDB074C2040978B00234CC0 /* HaarCascadesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaarCascadesVC.h; sourceTree = "<group>"; };
+		EEDB074D2040978B00234CC0 /* HaarCascadesVC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HaarCascadesVC.mm; sourceTree = "<group>"; };
+		EEDB074E2040978B00234CC0 /* HaarCascadesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HaarCascadesVC.xib; sourceTree = "<group>"; };
+		EEDB07532040989800234CC0 /* haarcascade_fullbody.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_fullbody.xml; sourceTree = "<group>"; };
+		EEDB07542040989800234CC0 /* haarcascade_lowerbody.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_lowerbody.xml; sourceTree = "<group>"; };
+		EEDB07552040989800234CC0 /* haarcascade_upperbody.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_upperbody.xml; sourceTree = "<group>"; };
+		EEDB07572040989800234CC0 /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		EEDB07582040989800234CC0 /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		EEDB07592040989800234CC0 /* haarcascade_frontalface_alt_tree.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt_tree.xml; sourceTree = "<group>"; };
+		EEDB075A2040989800234CC0 /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
+		EEDB075B2040989800234CC0 /* haarcascade_profileface.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_profileface.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE682C342031E47500D16FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE98D11820482C3900F6F9DF /* opencv2.framework in Frameworks */,
+				EE3736CF203E9AB700A47E96 /* AssetsLibrary.framework in Frameworks */,
+				EE3736CD203E995300A47E96 /* CoreImage.framework in Frameworks */,
+				EE3736CB203E994800A47E96 /* CoreMedia.framework in Frameworks */,
+				EE3736C9203E994100A47E96 /* CoreAudio.framework in Frameworks */,
+				EE3736C7203E993900A47E96 /* CoreVideo.framework in Frameworks */,
+				EE3736C5203E992A00A47E96 /* QuartzCore.framework in Frameworks */,
+				EE3736C3203E992400A47E96 /* AVFoundation.framework in Frameworks */,
+				EE3736C1203E991400A47E96 /* libc++.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE682C4F2031E47500D16FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE682C5A2031E47500D16FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE57FBB02046C2A100BA9A7B /* ObjectTrack */ = {
+			isa = PBXGroup;
+			children = (
+				EE57FBB12046C36D00BA9A7B /* MeanShiftVC.h */,
+				EE57FBB22046C36D00BA9A7B /* MeanShiftVC.mm */,
+				EE57FBB32046C36D00BA9A7B /* MeanShiftVC.xib */,
+			);
+			path = ObjectTrack;
+			sourceTree = "<group>";
+		};
+		EE682C2E2031E47500D16FDF = {
+			isa = PBXGroup;
+			children = (
+				EE682C392031E47500D16FDF /* OpenCV_Demo */,
+				EE682C552031E47500D16FDF /* OpenCV_DemoTests */,
+				EE682C602031E47500D16FDF /* OpenCV_DemoUITests */,
+				EE682C382031E47500D16FDF /* Products */,
+				EE682C832031FC0600D16FDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE682C382031E47500D16FDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE682C372031E47500D16FDF /* OpenCV_Demo.app */,
+				EE682C522031E47500D16FDF /* OpenCV_DemoTests.xctest */,
+				EE682C5D2031E47500D16FDF /* OpenCV_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE682C392031E47500D16FDF /* OpenCV_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EEDB07512040989800234CC0 /* resource */,
+				EEDB0746203FE6C200234CC0 /* images */,
+				EE3736D6203F236800A47E96 /* CVImageUtil.h */,
+				EE3736D7203F236800A47E96 /* CVImageUtil.mm */,
+				EEDB0749203FE74700234CC0 /* CVStepCollectionVC.h */,
+				EEDB074A203FE74700234CC0 /* CVStepCollectionVC.mm */,
+				EE682C7E2031F2DF00D16FDF /* CVImageCell.h */,
+				EE682C7F2031F2DF00D16FDF /* CVImageCell.m */,
+				EE682C802031F2DF00D16FDF /* CVImageCell.xib */,
+				EE682C6F2031EB3400D16FDF /* MenuItemCell.h */,
+				EE682C702031EB3400D16FDF /* MenuItemCell.m */,
+				EE682C712031EB3400D16FDF /* MenuItemCell.xib */,
+				EE682C3A2031E47500D16FDF /* AppDelegate.h */,
+				EE682C3B2031E47500D16FDF /* AppDelegate.m */,
+				EE682C3D2031E47500D16FDF /* ViewController.h */,
+				EE682C3E2031E47500D16FDF /* ViewController.m */,
+				EE682C402031E47500D16FDF /* Main.storyboard */,
+				EE9337D2204597CC00408FB3 /* HistDemo */,
+				EEA47ADD204142E800A4B8E3 /* ORBDemo */,
+				EEA47ADE2041430A00A4B8E3 /* ORBCamera */,
+				EEA47ADF2041431A00A4B8E3 /* HaarCascades */,
+				EE57FBB02046C2A100BA9A7B /* ObjectTrack */,
+				EE682C462031E47500D16FDF /* Assets.xcassets */,
+				EE682C482031E47500D16FDF /* LaunchScreen.storyboard */,
+				EE682C4B2031E47500D16FDF /* Info.plist */,
+				EE682C4C2031E47500D16FDF /* main.m */,
+			);
+			path = OpenCV_Demo;
+			sourceTree = "<group>";
+		};
+		EE682C552031E47500D16FDF /* OpenCV_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE682C562031E47500D16FDF /* OpenCV_featureMatching_demoTests.m */,
+				EE682C582031E47500D16FDF /* Info.plist */,
+			);
+			path = OpenCV_DemoTests;
+			sourceTree = "<group>";
+		};
+		EE682C602031E47500D16FDF /* OpenCV_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE682C612031E47500D16FDF /* OpenCV_featureMatching_demoUITests.m */,
+				EE682C632031E47500D16FDF /* Info.plist */,
+			);
+			path = OpenCV_DemoUITests;
+			sourceTree = "<group>";
+		};
+		EE682C832031FC0600D16FDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE98D11720482C3900F6F9DF /* opencv2.framework */,
+				EE3736CE203E9AB600A47E96 /* AssetsLibrary.framework */,
+				EE3736CC203E995300A47E96 /* CoreImage.framework */,
+				EE3736CA203E994800A47E96 /* CoreMedia.framework */,
+				EE3736C8203E994000A47E96 /* CoreAudio.framework */,
+				EE3736C6203E993900A47E96 /* CoreVideo.framework */,
+				EE3736C4203E992A00A47E96 /* QuartzCore.framework */,
+				EE3736C2203E992300A47E96 /* AVFoundation.framework */,
+				EE3736C0203E991400A47E96 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE9337D2204597CC00408FB3 /* HistDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE9337D3204597CC00408FB3 /* HistDemoVC.h */,
+				EE9337D4204597CC00408FB3 /* HistDemoVC.mm */,
+				EE9337D5204597CC00408FB3 /* HistDemoVC.xib */,
+			);
+			path = HistDemo;
+			sourceTree = "<group>";
+		};
+		EEA47ADD204142E800A4B8E3 /* ORBDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE682C742031EE0000D16FDF /* ORBDemoVC.h */,
+				EE682C752031EE0000D16FDF /* ORBDemoVC.mm */,
+				EE682C762031EE0000D16FDF /* ORBDemoVC.xib */,
+			);
+			path = ORBDemo;
+			sourceTree = "<group>";
+		};
+		EEA47ADE2041430A00A4B8E3 /* ORBCamera */ = {
+			isa = PBXGroup;
+			children = (
+				EE682C792031EE2100D16FDF /* ORBCameraVC.h */,
+				EE682C7A2031EE2100D16FDF /* ORBCameraVC.mm */,
+				EE682C7B2031EE2100D16FDF /* ORBCameraVC.xib */,
+			);
+			path = ORBCamera;
+			sourceTree = "<group>";
+		};
+		EEA47ADF2041431A00A4B8E3 /* HaarCascades */ = {
+			isa = PBXGroup;
+			children = (
+				EEDB074C2040978B00234CC0 /* HaarCascadesVC.h */,
+				EEDB074D2040978B00234CC0 /* HaarCascadesVC.mm */,
+				EEDB074E2040978B00234CC0 /* HaarCascadesVC.xib */,
+			);
+			path = HaarCascades;
+			sourceTree = "<group>";
+		};
+		EEDB0746203FE6C200234CC0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EEA47ADB2041425100A4B8E3 /* book_scene1.jpg */,
+				EEA47AD92041418200A4B8E3 /* book1.jpg */,
+				EE363EC52040A8E8003238AE /* photos.png */,
+				EEDB0747203FE6F400234CC0 /* red_ball.jpeg */,
+				EE3736D4203F141600A47E96 /* peakdesign.png */,
+				EE26063C20333AE800E6CBD7 /* demo_pic.png */,
+				EE26063B20333AE800E6CBD7 /* logo.png */,
+				EE3736BB203DAC2200A47E96 /* wallet_scene1.png */,
+				EE3736D1203EA44100A47E96 /* wallet_scene2.png */,
+				EE3736D0203EA44100A47E96 /* wallet_scene3.png */,
+				EE3736BA203DAC2200A47E96 /* wallet.png */,
+				EE3736BE203DD50F00A47E96 /* wallet2.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		EEDB07512040989800234CC0 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				EEDB07522040989800234CC0 /* body10 */,
+				EEDB07562040989800234CC0 /* frontalFace10 */,
+				EEDB075B2040989800234CC0 /* haarcascade_profileface.xml */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		EEDB07522040989800234CC0 /* body10 */ = {
+			isa = PBXGroup;
+			children = (
+				EEDB07532040989800234CC0 /* haarcascade_fullbody.xml */,
+				EEDB07542040989800234CC0 /* haarcascade_lowerbody.xml */,
+				EEDB07552040989800234CC0 /* haarcascade_upperbody.xml */,
+			);
+			path = body10;
+			sourceTree = "<group>";
+		};
+		EEDB07562040989800234CC0 /* frontalFace10 */ = {
+			isa = PBXGroup;
+			children = (
+				EEDB07572040989800234CC0 /* haarcascade_frontalface_alt.xml */,
+				EEDB07582040989800234CC0 /* haarcascade_frontalface_alt2.xml */,
+				EEDB07592040989800234CC0 /* haarcascade_frontalface_alt_tree.xml */,
+				EEDB075A2040989800234CC0 /* haarcascade_frontalface_default.xml */,
+			);
+			path = frontalFace10;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE682C362031E47500D16FDF /* OpenCV_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE682C662031E47500D16FDF /* Build configuration list for PBXNativeTarget "OpenCV_Demo" */;
+			buildPhases = (
+				EE682C332031E47500D16FDF /* Sources */,
+				EE682C342031E47500D16FDF /* Frameworks */,
+				EE682C352031E47500D16FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCV_Demo;
+			productName = OpenCV_featureMatching_demo;
+			productReference = EE682C372031E47500D16FDF /* OpenCV_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE682C512031E47500D16FDF /* OpenCV_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE682C692031E47500D16FDF /* Build configuration list for PBXNativeTarget "OpenCV_DemoTests" */;
+			buildPhases = (
+				EE682C4E2031E47500D16FDF /* Sources */,
+				EE682C4F2031E47500D16FDF /* Frameworks */,
+				EE682C502031E47500D16FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE682C542031E47500D16FDF /* PBXTargetDependency */,
+			);
+			name = OpenCV_DemoTests;
+			productName = OpenCV_featureMatching_demoTests;
+			productReference = EE682C522031E47500D16FDF /* OpenCV_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE682C5C2031E47500D16FDF /* OpenCV_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE682C6C2031E47500D16FDF /* Build configuration list for PBXNativeTarget "OpenCV_DemoUITests" */;
+			buildPhases = (
+				EE682C592031E47500D16FDF /* Sources */,
+				EE682C5A2031E47500D16FDF /* Frameworks */,
+				EE682C5B2031E47500D16FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE682C5F2031E47500D16FDF /* PBXTargetDependency */,
+			);
+			name = OpenCV_DemoUITests;
+			productName = OpenCV_featureMatching_demoUITests;
+			productReference = EE682C5D2031E47500D16FDF /* OpenCV_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE682C2F2031E47500D16FDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GevinChen;
+				TargetAttributes = {
+					EE682C362031E47500D16FDF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EE682C512031E47500D16FDF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE682C362031E47500D16FDF;
+					};
+					EE682C5C2031E47500D16FDF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE682C362031E47500D16FDF;
+					};
+				};
+			};
+			buildConfigurationList = EE682C322031E47500D16FDF /* Build configuration list for PBXProject "OpenCV_Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE682C2E2031E47500D16FDF;
+			productRefGroup = EE682C382031E47500D16FDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE682C362031E47500D16FDF /* OpenCV_Demo */,
+				EE682C512031E47500D16FDF /* OpenCV_DemoTests */,
+				EE682C5C2031E47500D16FDF /* OpenCV_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE682C352031E47500D16FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3736D3203EA44200A47E96 /* wallet_scene2.png in Resources */,
+				EEDB075D2040989800234CC0 /* haarcascade_lowerbody.xml in Resources */,
+				EE682C4A2031E47500D16FDF /* LaunchScreen.storyboard in Resources */,
+				EE363EC62040A8E8003238AE /* photos.png in Resources */,
+				EE57FBB52046C36D00BA9A7B /* MeanShiftVC.xib in Resources */,
+				EE3736D2203EA44200A47E96 /* wallet_scene3.png in Resources */,
+				EE3736BF203DD50F00A47E96 /* wallet2.png in Resources */,
+				EE682C732031EB3400D16FDF /* MenuItemCell.xib in Resources */,
+				EEDB07632040989800234CC0 /* haarcascade_profileface.xml in Resources */,
+				EE682C472031E47500D16FDF /* Assets.xcassets in Resources */,
+				EEDB0748203FE6F400234CC0 /* red_ball.jpeg in Resources */,
+				EEDB07502040978B00234CC0 /* HaarCascadesVC.xib in Resources */,
+				EEA47ADC2041425100A4B8E3 /* book_scene1.jpg in Resources */,
+				EEA47ADA2041418200A4B8E3 /* book1.jpg in Resources */,
+				EE682C782031EE0000D16FDF /* ORBDemoVC.xib in Resources */,
+				EEDB07622040989800234CC0 /* haarcascade_frontalface_default.xml in Resources */,
+				EE9337D7204597CC00408FB3 /* HistDemoVC.xib in Resources */,
+				EE26063D20333AE800E6CBD7 /* logo.png in Resources */,
+				EE3736D5203F141600A47E96 /* peakdesign.png in Resources */,
+				EEDB075C2040989800234CC0 /* haarcascade_fullbody.xml in Resources */,
+				EEDB075E2040989800234CC0 /* haarcascade_upperbody.xml in Resources */,
+				EEDB07612040989800234CC0 /* haarcascade_frontalface_alt_tree.xml in Resources */,
+				EE3736BD203DAC2200A47E96 /* wallet_scene1.png in Resources */,
+				EE682C422031E47500D16FDF /* Main.storyboard in Resources */,
+				EEDB07602040989800234CC0 /* haarcascade_frontalface_alt2.xml in Resources */,
+				EE682C822031F2DF00D16FDF /* CVImageCell.xib in Resources */,
+				EE26063E20333AE800E6CBD7 /* demo_pic.png in Resources */,
+				EE3736BC203DAC2200A47E96 /* wallet.png in Resources */,
+				EEDB075F2040989800234CC0 /* haarcascade_frontalface_alt.xml in Resources */,
+				EE682C7D2031EE2100D16FDF /* ORBCameraVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE682C502031E47500D16FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE682C5B2031E47500D16FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE682C332031E47500D16FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE682C3F2031E47500D16FDF /* ViewController.m in Sources */,
+				EE3736D8203F236800A47E96 /* CVImageUtil.mm in Sources */,
+				EE9337D6204597CC00408FB3 /* HistDemoVC.mm in Sources */,
+				EE682C4D2031E47500D16FDF /* main.m in Sources */,
+				EE682C3C2031E47500D16FDF /* AppDelegate.m in Sources */,
+				EE682C812031F2DF00D16FDF /* CVImageCell.m in Sources */,
+				EEDB074F2040978B00234CC0 /* HaarCascadesVC.mm in Sources */,
+				EE682C7C2031EE2100D16FDF /* ORBCameraVC.mm in Sources */,
+				EE57FBB42046C36D00BA9A7B /* MeanShiftVC.mm in Sources */,
+				EE682C722031EB3400D16FDF /* MenuItemCell.m in Sources */,
+				EEDB074B203FE74700234CC0 /* CVStepCollectionVC.mm in Sources */,
+				EE682C772031EE0000D16FDF /* ORBDemoVC.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE682C4E2031E47500D16FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE682C572031E47500D16FDF /* OpenCV_featureMatching_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE682C592031E47500D16FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE682C622031E47500D16FDF /* OpenCV_featureMatching_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE682C542031E47500D16FDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE682C362031E47500D16FDF /* OpenCV_Demo */;
+			targetProxy = EE682C532031E47500D16FDF /* PBXContainerItemProxy */;
+		};
+		EE682C5F2031E47500D16FDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE682C362031E47500D16FDF /* OpenCV_Demo */;
+			targetProxy = EE682C5E2031E47500D16FDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE682C402031E47500D16FDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE682C412031E47500D16FDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE682C482031E47500D16FDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE682C492031E47500D16FDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE682C642031E47500D16FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE682C652031E47500D16FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE682C672031E47500D16FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88X9DS6ETV;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/OpenCV_Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrbone.OpenCV-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE682C682031E47500D16FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88X9DS6ETV;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/OpenCV_Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrbone.OpenCV-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE682C6A2031E47500D16FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88X9DS6ETV;
+				INFOPLIST_FILE = OpenCV_featureMatching_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrbone.OpenCV-featureMatching-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCV_Demo.app/OpenCV_Demo";
+			};
+			name = Debug;
+		};
+		EE682C6B2031E47500D16FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88X9DS6ETV;
+				INFOPLIST_FILE = OpenCV_featureMatching_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrbone.OpenCV-featureMatching-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCV_Demo.app/OpenCV_Demo";
+			};
+			name = Release;
+		};
+		EE682C6D2031E47500D16FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88X9DS6ETV;
+				INFOPLIST_FILE = OpenCV_featureMatching_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrbone.OpenCV-featureMatching-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenCV_featureMatching_demo;
+			};
+			name = Debug;
+		};
+		EE682C6E2031E47500D16FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88X9DS6ETV;
+				INFOPLIST_FILE = OpenCV_featureMatching_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrbone.OpenCV-featureMatching-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenCV_featureMatching_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE682C322031E47500D16FDF /* Build configuration list for PBXProject "OpenCV_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE682C642031E47500D16FDF /* Debug */,
+				EE682C652031E47500D16FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE682C662031E47500D16FDF /* Build configuration list for PBXNativeTarget "OpenCV_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE682C672031E47500D16FDF /* Debug */,
+				EE682C682031E47500D16FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE682C692031E47500D16FDF /* Build configuration list for PBXNativeTarget "OpenCV_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE682C6A2031E47500D16FDF /* Debug */,
+				EE682C6B2031E47500D16FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE682C6C2031E47500D16FDF /* Build configuration list for PBXNativeTarget "OpenCV_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE682C6D2031E47500D16FDF /* Debug */,
+				EE682C6E2031E47500D16FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE682C2F2031E47500D16FDF /* Project object */;
+}
