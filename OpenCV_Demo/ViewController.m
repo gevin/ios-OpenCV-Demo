@@ -13,6 +13,8 @@
 #import "ORBCameraVC.h"
 #import "HaarCascadesVC.h"
 #import "MeanShiftVC.h"
+#import "SVMDemoVC.h"
+#import "HOGAndSvmVC.h"
 
 @interface ViewController () <UICollectionViewDelegate,UICollectionViewDataSource>
 {
@@ -47,6 +49,8 @@
     [_itemsList addObject:@"ORB Camera"];
     [_itemsList addObject:@"Haar Cascade"];
     [_itemsList addObject:@"Mean Shift"];
+    [_itemsList addObject:@"SVM Demo"];
+    [_itemsList addObject:@"HOG + SVM"];
     
     _vcDict = [[NSMutableDictionary alloc] init];
     _vcDict[@"Histogram"] = [HistDemoVC new];
@@ -54,6 +58,9 @@
     _vcDict[@"ORB Camera"] = [ORBCameraVC new];
     _vcDict[@"Haar Cascade"] = [HaarCascadesVC new];
     _vcDict[@"Mean Shift"] = [MeanShiftVC new];
+    _vcDict[@"SVM Demo"] = [SVMDemoVC new];
+    _vcDict[@"HOG + SVM"] = [HOGAndSvmVC new];
+    
 }
 
 #pragma mark - CollectionView

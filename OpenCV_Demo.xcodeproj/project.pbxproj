@@ -27,6 +27,8 @@
 		EE3736D8203F236800A47E96 /* CVImageUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE3736D7203F236800A47E96 /* CVImageUtil.mm */; };
 		EE57FBB42046C36D00BA9A7B /* MeanShiftVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE57FBB22046C36D00BA9A7B /* MeanShiftVC.mm */; };
 		EE57FBB52046C36D00BA9A7B /* MeanShiftVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE57FBB32046C36D00BA9A7B /* MeanShiftVC.xib */; };
+		EE63DA6E2049BB1600418290 /* HOGAndSvmVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE63DA6C2049BB1600418290 /* HOGAndSvmVC.mm */; };
+		EE63DA6F2049BB1600418290 /* HOGAndSvmVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE63DA6D2049BB1600418290 /* HOGAndSvmVC.xib */; };
 		EE682C3C2031E47500D16FDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE682C3B2031E47500D16FDF /* AppDelegate.m */; };
 		EE682C3F2031E47500D16FDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE682C3E2031E47500D16FDF /* ViewController.m */; };
 		EE682C422031E47500D16FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE682C402031E47500D16FDF /* Main.storyboard */; };
@@ -48,6 +50,8 @@
 		EE98D11820482C3900F6F9DF /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE98D11720482C3900F6F9DF /* opencv2.framework */; };
 		EEA47ADA2041418200A4B8E3 /* book1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEA47AD92041418200A4B8E3 /* book1.jpg */; };
 		EEA47ADC2041425100A4B8E3 /* book_scene1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEA47ADB2041425100A4B8E3 /* book_scene1.jpg */; };
+		EED7571B204901A300C01C67 /* SVMDemoVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = EED75719204901A300C01C67 /* SVMDemoVC.mm */; };
+		EED7571C204901A300C01C67 /* SVMDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED7571A204901A300C01C67 /* SVMDemoVC.xib */; };
 		EEDB0748203FE6F400234CC0 /* red_ball.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEDB0747203FE6F400234CC0 /* red_ball.jpeg */; };
 		EEDB074B203FE74700234CC0 /* CVStepCollectionVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEDB074A203FE74700234CC0 /* CVStepCollectionVC.mm */; };
 		EEDB074F2040978B00234CC0 /* HaarCascadesVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEDB074D2040978B00234CC0 /* HaarCascadesVC.mm */; };
@@ -60,6 +64,9 @@
 		EEDB07612040989800234CC0 /* haarcascade_frontalface_alt_tree.xml in Resources */ = {isa = PBXBuildFile; fileRef = EEDB07592040989800234CC0 /* haarcascade_frontalface_alt_tree.xml */; };
 		EEDB07622040989800234CC0 /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = EEDB075A2040989800234CC0 /* haarcascade_frontalface_default.xml */; };
 		EEDB07632040989800234CC0 /* haarcascade_profileface.xml in Resources */ = {isa = PBXBuildFile; fileRef = EEDB075B2040989800234CC0 /* haarcascade_profileface.xml */; };
+		EEF2DF4E204D696900BEF4A7 /* person_train in Resources */ = {isa = PBXBuildFile; fileRef = EEF2DF4D204D696900BEF4A7 /* person_train */; };
+		EEF2DF51204D88A300BEF4A7 /* test_person_pos2.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF2DF4F204D88A300BEF4A7 /* test_person_pos2.png */; };
+		EEF2DF52204D88A300BEF4A7 /* test_person_pos1.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF2DF50204D88A300BEF4A7 /* test_person_pos1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +109,9 @@
 		EE57FBB12046C36D00BA9A7B /* MeanShiftVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeanShiftVC.h; sourceTree = "<group>"; };
 		EE57FBB22046C36D00BA9A7B /* MeanShiftVC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MeanShiftVC.mm; sourceTree = "<group>"; };
 		EE57FBB32046C36D00BA9A7B /* MeanShiftVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeanShiftVC.xib; sourceTree = "<group>"; };
+		EE63DA6B2049BB1600418290 /* HOGAndSvmVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOGAndSvmVC.h; sourceTree = "<group>"; };
+		EE63DA6C2049BB1600418290 /* HOGAndSvmVC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HOGAndSvmVC.mm; sourceTree = "<group>"; };
+		EE63DA6D2049BB1600418290 /* HOGAndSvmVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HOGAndSvmVC.xib; sourceTree = "<group>"; };
 		EE682C372031E47500D16FDF /* OpenCV_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE682C3A2031E47500D16FDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE682C3B2031E47500D16FDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -136,6 +146,9 @@
 		EE98D11720482C3900F6F9DF /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		EEA47AD92041418200A4B8E3 /* book1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book1.jpg; sourceTree = "<group>"; };
 		EEA47ADB2041425100A4B8E3 /* book_scene1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book_scene1.jpg; sourceTree = "<group>"; };
+		EED75718204901A300C01C67 /* SVMDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVMDemoVC.h; sourceTree = "<group>"; };
+		EED75719204901A300C01C67 /* SVMDemoVC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SVMDemoVC.mm; sourceTree = "<group>"; };
+		EED7571A204901A300C01C67 /* SVMDemoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SVMDemoVC.xib; sourceTree = "<group>"; };
 		EEDB0747203FE6F400234CC0 /* red_ball.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red_ball.jpeg; sourceTree = "<group>"; };
 		EEDB0749203FE74700234CC0 /* CVStepCollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVStepCollectionVC.h; sourceTree = "<group>"; };
 		EEDB074A203FE74700234CC0 /* CVStepCollectionVC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVStepCollectionVC.mm; sourceTree = "<group>"; };
@@ -150,6 +163,9 @@
 		EEDB07592040989800234CC0 /* haarcascade_frontalface_alt_tree.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt_tree.xml; sourceTree = "<group>"; };
 		EEDB075A2040989800234CC0 /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
 		EEDB075B2040989800234CC0 /* haarcascade_profileface.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_profileface.xml; sourceTree = "<group>"; };
+		EEF2DF4D204D696900BEF4A7 /* person_train */ = {isa = PBXFileReference; lastKnownFileType = folder; name = person_train; path = images/person_train; sourceTree = "<group>"; };
+		EEF2DF4F204D88A300BEF4A7 /* test_person_pos2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_person_pos2.png; sourceTree = "<group>"; };
+		EEF2DF50204D88A300BEF4A7 /* test_person_pos1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_person_pos1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +212,16 @@
 			path = ObjectTrack;
 			sourceTree = "<group>";
 		};
+		EE63DA702049BB5900418290 /* Hog+Svm */ = {
+			isa = PBXGroup;
+			children = (
+				EE63DA6B2049BB1600418290 /* HOGAndSvmVC.h */,
+				EE63DA6C2049BB1600418290 /* HOGAndSvmVC.mm */,
+				EE63DA6D2049BB1600418290 /* HOGAndSvmVC.xib */,
+			);
+			path = "Hog+Svm";
+			sourceTree = "<group>";
+		};
 		EE682C2E2031E47500D16FDF = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +248,7 @@
 			children = (
 				EEDB07512040989800234CC0 /* resource */,
 				EEDB0746203FE6C200234CC0 /* images */,
+				EEF2DF4D204D696900BEF4A7 /* person_train */,
 				EE3736D6203F236800A47E96 /* CVImageUtil.h */,
 				EE3736D7203F236800A47E96 /* CVImageUtil.mm */,
 				EEDB0749203FE74700234CC0 /* CVStepCollectionVC.h */,
@@ -242,6 +269,8 @@
 				EEA47ADE2041430A00A4B8E3 /* ORBCamera */,
 				EEA47ADF2041431A00A4B8E3 /* HaarCascades */,
 				EE57FBB02046C2A100BA9A7B /* ObjectTrack */,
+				EED757172049018600C01C67 /* svm */,
+				EE63DA702049BB5900418290 /* Hog+Svm */,
 				EE682C462031E47500D16FDF /* Assets.xcassets */,
 				EE682C482031E47500D16FDF /* LaunchScreen.storyboard */,
 				EE682C4B2031E47500D16FDF /* Info.plist */,
@@ -324,9 +353,21 @@
 			path = HaarCascades;
 			sourceTree = "<group>";
 		};
+		EED757172049018600C01C67 /* svm */ = {
+			isa = PBXGroup;
+			children = (
+				EED75718204901A300C01C67 /* SVMDemoVC.h */,
+				EED75719204901A300C01C67 /* SVMDemoVC.mm */,
+				EED7571A204901A300C01C67 /* SVMDemoVC.xib */,
+			);
+			path = svm;
+			sourceTree = "<group>";
+		};
 		EEDB0746203FE6C200234CC0 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				EEF2DF50204D88A300BEF4A7 /* test_person_pos1.png */,
+				EEF2DF4F204D88A300BEF4A7 /* test_person_pos2.png */,
 				EEA47ADB2041425100A4B8E3 /* book_scene1.jpg */,
 				EEA47AD92041418200A4B8E3 /* book1.jpg */,
 				EE363EC52040A8E8003238AE /* photos.png */,
@@ -480,6 +521,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE63DA6F2049BB1600418290 /* HOGAndSvmVC.xib in Resources */,
 				EE3736D3203EA44200A47E96 /* wallet_scene2.png in Resources */,
 				EEDB075D2040989800234CC0 /* haarcascade_lowerbody.xml in Resources */,
 				EE682C4A2031E47500D16FDF /* LaunchScreen.storyboard in Resources */,
@@ -491,7 +533,10 @@
 				EEDB07632040989800234CC0 /* haarcascade_profileface.xml in Resources */,
 				EE682C472031E47500D16FDF /* Assets.xcassets in Resources */,
 				EEDB0748203FE6F400234CC0 /* red_ball.jpeg in Resources */,
+				EEF2DF52204D88A300BEF4A7 /* test_person_pos1.png in Resources */,
+				EEF2DF51204D88A300BEF4A7 /* test_person_pos2.png in Resources */,
 				EEDB07502040978B00234CC0 /* HaarCascadesVC.xib in Resources */,
+				EED7571C204901A300C01C67 /* SVMDemoVC.xib in Resources */,
 				EEA47ADC2041425100A4B8E3 /* book_scene1.jpg in Resources */,
 				EEA47ADA2041418200A4B8E3 /* book1.jpg in Resources */,
 				EE682C782031EE0000D16FDF /* ORBDemoVC.xib in Resources */,
@@ -509,6 +554,7 @@
 				EE26063E20333AE800E6CBD7 /* demo_pic.png in Resources */,
 				EE3736BC203DAC2200A47E96 /* wallet.png in Resources */,
 				EEDB075F2040989800234CC0 /* haarcascade_frontalface_alt.xml in Resources */,
+				EEF2DF4E204D696900BEF4A7 /* person_train in Resources */,
 				EE682C7D2031EE2100D16FDF /* ORBCameraVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,11 +580,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE63DA6E2049BB1600418290 /* HOGAndSvmVC.mm in Sources */,
 				EE682C3F2031E47500D16FDF /* ViewController.m in Sources */,
 				EE3736D8203F236800A47E96 /* CVImageUtil.mm in Sources */,
 				EE9337D6204597CC00408FB3 /* HistDemoVC.mm in Sources */,
 				EE682C4D2031E47500D16FDF /* main.m in Sources */,
 				EE682C3C2031E47500D16FDF /* AppDelegate.m in Sources */,
+				EED7571B204901A300C01C67 /* SVMDemoVC.mm in Sources */,
 				EE682C812031F2DF00D16FDF /* CVImageCell.m in Sources */,
 				EEDB074F2040978B00234CC0 /* HaarCascadesVC.mm in Sources */,
 				EE682C7C2031EE2100D16FDF /* ORBCameraVC.mm in Sources */,
