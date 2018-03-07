@@ -64,7 +64,7 @@
     srand(time(NULL));  
     
     //Create random test points  
-    //创建随机数，作为训练样本  
+    //創建樣本數  
     for (int i= 0; i< trainCount; i++){   
         int row = rand() % rows;  
         int col = rand() % cols;  
@@ -80,16 +80,16 @@
         
         if (row > ( 50 * cos(col * CV_PI/ 100) + 200) ){   
             [self drawCross:img center:cv::Point(col, row) color:CV_RGB(255, 0, 0) ];  
-            classesData.at<unsigned int>(i, 0) = 1;       //類别1  
+            classesData.at<unsigned int>(i, 0) = 1;       //類别1 紅
         }    
         else{
             if (col > 200){   
                 [self drawCross:img center:cv::Point(col, row) color:CV_RGB(0, 255, 0) ];  
-                classesData.at<unsigned int>(i, 0) = 2;   //類别2  
+                classesData.at<unsigned int>(i, 0) = 2;   //類别2 綠
             }   
             else{   
                 [self drawCross:img center:cv::Point(col, row) color:CV_RGB(0, 0, 255) ];  
-                classesData.at<unsigned int>(i, 0) = 3;   //類别3  
+                classesData.at<unsigned int>(i, 0) = 3;   //類别3 藍
             }
         }
     }
@@ -126,7 +126,16 @@
      
      */  
     // 設定 svm 參數： SVM類型-C_SVC, kernel方法-RBF,degree=10,gamma=8.0, coef0=1.0,C=10.0,nu=0.5,p=0.1,class_weights=NULL,term_crit=criteria  
-    param = CvSVMParams (CvSVM::C_SVC, CvSVM::RBF, 10.0, 8.0, 1.0, 10.0, 0.5, 0.1, NULL, criteria);   
+    param = CvSVMParams (CvSVM::C_SVC,  // SVM 類型，C_SVC，NU_SVC，ONE_CLASS，EPS_SVR，NU_SVR
+                         CvSVM::RBF,    // 內核函數類型，LINEAR，POLY，RBF，SIGMOID
+                         10,            // degree 内核函數（POLY）的参數degree
+                         8,             // gamma  内核函數（POLY/ RBF/ SIGMOID）的参數
+                         1,             // coef0  内核函數（POLY/ SIGMOID）的参數coef0
+                         10,            // C value 懲罰錯誤分類值，SVM類型 (C_SVC/ EPS_SVR/ NU_SVR) 的参數 C，懲罰錯誤分類，值越高，界線劃分越嚴謹
+                         0.5,           // nu SVM類型（NU_SVC/ ONE_CLASS/ NU_SVR）的参數 
+                         0.1,           // p SVM類型（EPS_SVR）的参數
+                         NULL,          // class_weights C_SVC中的可選權重，賦給指定的label，乘以C以後，權重影響不同類別的錯誤分類懲罰項。權重越大，某一類別的錯誤分類數據的懲罰項就越大。
+                         criteria);     // 訓練終止的條件參數
     // 用 trainData 訓練分類器，classesData 是每筆訓練資料的分類
     svm.train(trainData, classesData, cv::Mat(), cv::Mat(), param);  
     
@@ -156,7 +165,7 @@
     [self addItemMat:img description:@"分類結果"];
     
     //Show support vectors  
-    //显示支撑向量  
+    //顯示
     int sv_num= svm.get_support_vector_count();   
     for (int i= 0; i< sv_num; i++){   
         const float* support = svm.get_support_vector(i);   

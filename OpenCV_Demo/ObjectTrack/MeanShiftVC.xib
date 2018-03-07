@@ -51,6 +51,12 @@
                         <action selector="btnBackClicked:" destination="-1" eventType="touchUpInside" id="1AQ-05-rrw"/>
                     </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press start and touch target" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNA-G8-wca">
+                    <rect key="frame" x="18" y="562" width="192" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -58,7 +64,9 @@
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="uM9-LL-kUI" secondAttribute="trailing" id="QQG-Wq-s3z"/>
                 <constraint firstItem="Xam-2y-Hfg" firstAttribute="centerY" secondItem="Frl-VZ-bQG" secondAttribute="centerY" id="YcV-Tp-dB9"/>
                 <constraint firstItem="Frl-VZ-bQG" firstAttribute="top" secondItem="uM9-LL-kUI" secondAttribute="bottom" constant="18" id="cHx-Ej-IHb"/>
+                <constraint firstItem="GNA-G8-wca" firstAttribute="leading" secondItem="Frl-VZ-bQG" secondAttribute="leading" id="cJZ-dP-qfb"/>
                 <constraint firstItem="Xam-2y-Hfg" firstAttribute="leading" secondItem="Frl-VZ-bQG" secondAttribute="trailing" constant="26" id="iZx-Yr-BrT"/>
+                <constraint firstItem="GNA-G8-wca" firstAttribute="top" secondItem="Frl-VZ-bQG" secondAttribute="bottom" constant="14" id="ifl-o4-g9k"/>
                 <constraint firstItem="uM9-LL-kUI" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="kf8-gc-EYv"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="top" secondItem="uM9-LL-kUI" secondAttribute="top" constant="20" id="nqn-49-hMF"/>
             </constraints>
